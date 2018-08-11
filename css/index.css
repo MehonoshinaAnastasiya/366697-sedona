@@ -1,0 +1,24 @@
+ul {
+    display: block;
+}
+
+ul li {
+    display: inline;
+    margin: 10px;
+}
+li {
+    background-image: url(/img/logo.png) no-repeat;
+}
+.main-menu {
+    text-align: center;
+    margin: 50px;
+}
+.intro {
+background-image: cover; 
+}
+.welcome {
+ position: absolute; 
+    opacity: 100;
+}
+
+.hidden { display: none; }
