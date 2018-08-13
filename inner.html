@@ -1,50 +1,100 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="url-8">
+    <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/index.css">
-    </head>
+    <link rel="stylesheet" href="css/index.css">
+</head>
     <body>
-    <header class="main-header">
-    <nav class="main-navigation">
-    <a class="main-heder-logo" href="">
-    <img src="/img/logo.png" width="250" height="100" alt="Логотип сайта Седона">
-    </a>
-        <ul>
-            <li><a href="#info">ИНФОРМАЦИЯ</a></li>
-            <li><a href="#image">ФОТО И ВИДЕО</a></li>
-            <li><a href="#map">КАРТА ШТАТА</a></li>
-            <li><a href="#hotel">ГОСТИНИЦЫ</a></li>
-        </ul>
+        <header class="main-header">
+        <nav class="main-navigation">
+            <a class="main-heder-logo" href="">
+                <img src="/img/logo.png" width="250" height="100" alt="Логотип сайта Седона">
+            </a>
+            <ul>
+                <li><a href="#info">ИНФОРМАЦИЯ</a></li>
+                <li><a href="#image">ФОТО И ВИДЕО</a></li>
+                <li><a href="#map">КАРТА ШТАТА</a></li>
+                <li><a href="#hotel">ГОСТИНИЦЫ</a></li>
+            </ul>
         </nav>
         </header>
         
         <main class="choice">
-        <div class="infrastructure">
-            <p>ИНФРАСТРУКТУРА</p>
-            <input type="checkbox" name="pool" id="pool-filed" checked>
-            <label>БАССЕЙН</label>
-            <input type="checkbox" name="parking" id="parking-filed" checked>
-            <label>ПАРКОВКА</label>
-            <input type="checkbox" name="wifi" id="wifi-filed" checked>
-            <label>WI-FI</label>
+            <div class="infrastructure">
+                <p>ИНФРАСТРУКТУРА</p>
+                <input type="checkbox" name="pool" id="pool-filed" checked>
+                <label>БАССЕЙН</label>
+                <input type="checkbox" name="parking" id="parking-filed" checked>
+                <label>ПАРКОВКА</label>
+                <input type="checkbox" name="wifi" id="wifi-filed" checked>
+                <label>WI-FI</label>
             </div>
-            <div clas="type">
+            <div class="type">
             <input type="checkbox" name="hotel" id="hotel-filed" checked>
                 <label>ГОСТИНИЦА</label>
                 <input type="checkbox" name="motel" id="motel-filed" checked>
-                <lebal>МОТЕЛЬ</lebal>
-                <input type="checkbox" name="apart" id="apart-filed" checkked>
-                <lebal>АПАРТАМЕНТЫ</lebal>
+                <label>МОТЕЛЬ</label>
+                <input type="checkbox" name="apart" id="apart-filed" checked>
+                <label>АПАРТАМЕНТЫ</label>
             </div>
             <div>
-            <p>
+                <p>
                 <b>СТОИМОСЬ В СУТКИ (Р):</b>
-                 <input type="botton" value="ПОКАЗАТЬ">
+                <input type="button" value="ПОКАЗАТЬ">
                 </p>
             </div>
+            <b>НАЙДЕНО:</b>
+            <ul>
+                <li><a href="#sort">СОРТИРОВКА:</a></li>
+                <li><a href="#price">ПО ЦЕНЕ</a></li>
+                <li><a href="#tupe">ПО ТИПУ</a></li>
+                <li><a href="#rating">ПО РЕЙТИНГУ</a></li>
+            </ul>
+            <section class="picking">
+                <ul class="amara">
+                    <li><img class="amara" src="img/amara.png" alt="Amara Resort"></li>
+                    <li><h4>AMARA RESORT & SPA</h4></li>
+                    <li>ГОСТИНИЦА</li>
+                    <li>ОТ 4000 Р.</li>
+                    <li><input type="button" value="ПОДРОБНЕЕ"></li>
+                    <li><input type="button" value="ЗАБРОНИРОВАТЬ"></li>
+                    <li><a href="#rating">РЕЙТИНГ:8,5</a></li>
+                </ul>
+                <ul class="desert">
+                    <li><img class="desert" src="img/desert.png" alt="Desert Quail Inn"></li>
+                    <li><h4>DESERT QUAIL INN</h4></li>
+                    <li>МОТЕЛЬ</li>
+                    <li>ОТ 3000 Р.</li>
+                    <li><input type="button" value="ПОДРОБНЕЕ"></li>
+                    <li><input type="button" value="ЗАБРОНИРОВАТЬ"></li>
+                    <li><a href="#rating">РЕЙТИНГ:8,9</a></li>
+                </ul>
+                <ul class="villas">
+                    <li><img class="villas" src="img/villas.png" alt="Villas at Poco Diablo"></li>
+                    <li><h4>VILLAS AT POCO DIABLO</h4></li>
+                    <li>АПАРТАМЕНТЫ</li>
+                    <li>ОТ 2000 Р.</li>
+                    <li><input type="button" value="ПОДРОБНЕЕ"></li>
+                    <li><input type="button" value="ЗАБРОНИРОВАТЬ"></li>
+                    <li><a href="#rating">РЕЙТИНГ:9,2</a></li>   
+                </ul>
+            </section>
+            <footer class="main-footer">
+                <b>#VISITSEDONA</b>
+                <div class="footer-social">
+                    <a class="social-button" href="#">Твитер</a>
+                    <a class="social-button" href="#"> Фейсбук</a>
+                    <a class="social-button" href="#"> Ютуб</a>
+                </div>
+                <div>
+                    <p class="footer-copyright">
+                        <b>WEBSITE BY</b>
+                    <a class="spcial-logo" href="https://htmlacademy.ru/">HTML Academy</a>
+                    </p>
+                </div>
+            </footer>  
         </main>
-        <span 
+    </body>
 </html>
